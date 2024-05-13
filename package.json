@@ -25,7 +25,7 @@
     "build:debug": "napi build --js false --dts native.d.ts --platform",
     "prepublishOnly": "napi prepublish -t npm",
     "version": "napi version",
-    "postinstall": "node install.mjs",
+    "postinstall": "node install.js",
     "prepare": "curl -L https://github.com/jpreprocess/jpreprocess/releases/download/v0.8.1/naist-jdic-jpreprocess.tar.gz | tar zx -C ./tests",
     "test": "node --test tests/*"
   },
