@@ -1,6 +1,6 @@
 {
   "name": "node-altjtalk-binding",
-  "version": "0.2.1",
+  "version": "0.3.0-misc.11",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/femshima/node-altjtalk-binding.git"
+    "url": "git+https://github.com/cm-ayf/node-altjtalk-binding.git"
   },
   "license": "MIT",
   "devDependencies": {
