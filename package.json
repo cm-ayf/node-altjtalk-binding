@@ -27,7 +27,8 @@
     "universal": "napi universal",
     "version": "napi version",
     "postinstall": "node install.mjs",
-    "prepare": "curl -L https://github.com/jpreprocess/jpreprocess/releases/download/v0.8.1/naist-jdic-jpreprocess.tar.gz | tar zx -C ./tests"
+    "prepare": "curl -L https://github.com/jpreprocess/jpreprocess/releases/download/v0.8.1/naist-jdic-jpreprocess.tar.gz | tar zx -C ./tests",
+    "test": "node --test tests/*"
   },
   "packageManager": "pnpm@8.12.1"
 }
