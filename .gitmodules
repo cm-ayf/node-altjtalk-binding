@@ -1,0 +1,3 @@
+[submodule "tests/tohoku-f01"]
+	path = tests/tohoku-f01
+	url = https://github.com/icn-lab/htsvoice-tohoku-f01.git
